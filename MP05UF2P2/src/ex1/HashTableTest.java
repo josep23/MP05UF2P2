@@ -71,11 +71,6 @@ public class HashTableTest {
        //Tambien funciona con simbolos "raros"
        Assertions.assertEquals("۞ꭊ۩ﺺ﷼﴾﴿֎֍\u06DDݿ₿☼☻☺♫♪♦♥♣♠♀♂◙ꝂꝎﻺꜻꝡꬲꟿﬕ", hashTable.get("5"));
 
-        //get() peta cuando usamos en elementos que no existen ya sean null o vacios.
-
-       //Assertions.assertEquals(null, hashTable.get("۞ꭊ۩ﺺ﷼﴾﴿֎֍\u06DDݿ₿☼☻☺♫♪♦♥♣♠♀♂◙ꝂꝎﻺꜻꝡꬲꟿﬕ"));
-       //Assertions.assertEquals("", hashTable.get("۞ꭊ۩ﺺ﷼﴾﴿֎֍\u06DDݿ₿☼☻☺♫♪♦♥♣♠♀♂◙ꝂꝎﻺꜻꝡꬲꟿﬕ"));
-
     }
     @Test
     void drop() {
