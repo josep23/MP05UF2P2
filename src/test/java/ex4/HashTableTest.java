@@ -31,13 +31,6 @@ class HashTableTest {
     void testToString() {
     }
 
-    @Test
-    void getCollisionsForKey() {
-    }
-
-    @Test
-    void testGetCollisionsForKey() {
-    }
 
     @Test
     void main() {
